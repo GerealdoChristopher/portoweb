@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Geraldo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Halo, Saya Geraldo</h1>
+        <p>Web Developer | UI/UX Designer | Freelancer</p>
+        <a href="#projects" class="btn">Lihat Proyek Saya</a>
+    </header>
+    
+    <section id="about" class="section" data-aos="fade-up">
+        <h2>Tentang Saya</h2>
+        <img src="Foto Geraldo.jpg" alt="Foto Geraldo" class="profile-pic">
+        <p>Saya adalah seorang pengembang web dan desainer UI/UX yang berdedikasi untuk menciptakan pengalaman digital yang inovatif dan menarik.</p>
+    </section>
+    
+    <section id="projects" class="section" data-aos="fade-up">
+        <h2>Proyek Saya</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Website Portfolio</h3>
+                <p>Sebuah portofolio interaktif yang menampilkan karya dan pengalaman saya.</p>
+            </div>
+            <div class="project">
+                <h3>Aplikasi Toko Online</h3>
+                <p>Platform e-commerce dengan desain modern dan fitur pembayaran online.</p>
+            </div>
+            <div class="project">
+                <h3>Dashboard Admin</h3>
+                <p>Sistem manajemen data dengan analitik real-time dan UI yang intuitif.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section" data-aos="fade-up">
+        <h2>Kontak</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Geraldo. Semua Hak Dilindungi.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
